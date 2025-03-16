@@ -104,9 +104,9 @@ class Program
     static void Main()
     {
         // Creating some sample products with realistic stock dates
-        Dairy milk = new Dairy("D001", "BrandA", "Milk", 1000, DateTime.Today.AddDays(-5), 10, 5.99, false);
-        Produce apple = new Produce("P001", "BrandB", "Apple", 500, DateTime.Today.AddDays(-3), 7, 2.99, "Weight", "Fruit");
-        Cereal cornFlakes = new Cereal("C001", "BrandC", "Corn Flakes", 750, DateTime.Today.AddDays(-12), 30, 4.99, 10);
+        Dairy milk = new Dairy("D001", "Milkmate", "Milk", 1000, DateTime.Today.AddDays(-5), 10, 5.99, false);
+        Produce apple = new Produce("P001", "Farmfresh", "Apple", 500, DateTime.Today.AddDays(-3), 7, 2.99, "Weight", "Fruit");
+        Cereal cornFlakes = new Cereal("C001", "Daystarter", "Corn Flakes", 750, DateTime.Today.AddDays(-12), 30, 4.99, 10);
 
         // Store all products in a list for easy management
         List<Product> inventory = new List<Product> { milk, apple, cornFlakes };
