@@ -30,7 +30,7 @@ class Product
         return BaseRetailPrice;
     }
 
-    // Displaying the product details
+    // Displaying all the product details
     public override string ToString()
     {
         return $"SKU: {SKU}, Name: {ProductName}, Brand: {Brand}, Price: ${BaseRetailPrice:F2}";
